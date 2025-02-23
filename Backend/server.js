@@ -30,6 +30,6 @@ app.get("/",(req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log("app is listing on port 4000.")
+    console.log(`app is listening on port ${port}`)
 })
 
